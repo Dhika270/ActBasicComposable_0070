@@ -71,6 +71,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(40.dp))
 
+            Image(
+                painter = gambar2,
+                contentDescription = null,
+                modifier = Modifier.size(150.dp),
+                contentScale = ContentScale.Fit
+            )
+
         }
     }
 }
