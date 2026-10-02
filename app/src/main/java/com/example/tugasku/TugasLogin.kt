@@ -41,5 +41,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         blurRadius = 8f
     )
 
+    Box(modifier = modifier.fillMaxSize()) {
+        Image(
+            painter = gambar1,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
 
+        }
+    }
 }
