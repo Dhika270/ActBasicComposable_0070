@@ -87,6 +87,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = emas,
                 style = TextStyle(shadow = bayangan)
             )
+            Text(
+                text = "Andhika Rizky Saputra",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = putih,
+                style = TextStyle(shadow = bayangan)
+            )
 
         }
     }
