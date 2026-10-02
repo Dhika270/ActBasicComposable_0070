@@ -94,6 +94,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = putih,
                 style = TextStyle(shadow = bayangan)
             )
+            Text(
+                text = "20240140070",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = putih,
+                style = TextStyle(shadow = bayangan)
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+
 
         }
     }
