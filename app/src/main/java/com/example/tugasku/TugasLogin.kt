@@ -62,6 +62,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = emas,
                 style = TextStyle(shadow = bayangan)
             )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = putih,
+                style = TextStyle(shadow = bayangan)
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
 
         }
     }
