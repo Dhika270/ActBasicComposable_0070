@@ -32,4 +32,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     val gambar2 = painterResource(id = R.drawable.gambar2)
     val gambar3 = painterResource(id = R.drawable.gambar3)
 
+    // Warna teks biar kebaca di atas poster gelap
+    val emas = Color(0xFFFFD54F)
+    val putih = Color.White
+    val bayangan = Shadow(
+        color = Color.Black,
+        offset = Offset(3f, 3f),
+        blurRadius = 8f
+    )
+
+
 }
